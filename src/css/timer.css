@@ -1,8 +1,7 @@
 .timer {
-    height: 72px;
     display: flex;
-    gap: 28px;
-    padding-top: 32px;
+    gap: 24px;
+    padding: 32px;
 }
 
 .field {
@@ -16,7 +15,7 @@
     display: flex;
     justify-content: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 80px;
+    font-size: 64px;
     color: #2E2F42;
 }
 
@@ -44,7 +43,8 @@
 .js-input{
     padding: 10px 20px;
     font-size: 20px;
-    margin-left: 4px;
+    margin-top: 32px;
+    margin-left: 40px;
     margin-right: 4px;
 }
 .timer-btn:disabled {
@@ -70,4 +70,7 @@
 .alert.show {
     display: block;
     /* Показуємо при додаванні класу show */
+}
+.link-home{
+    padding: 20px;
 }
