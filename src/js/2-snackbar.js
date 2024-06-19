@@ -30,7 +30,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
             iziToast.error({
                 title: '❌',
                 message: ` Rejected promise in ${delay}ms`,
-                position: 'topRight'
+                position: 'topRight',
             });
         });
 });
